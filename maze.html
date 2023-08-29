@@ -1,0 +1,26 @@
+<!-- index typically default name -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- load style sheets and scripts -->
+        <title>My webpage!</title>
+        <style>
+            .text-center
+            {
+                text-align: center
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body style="font-family: Arial, sans-serif;">
+        <h1 class = text-center>Maze Buillder</h1>
+        <div class = text-center>
+            <input id="length" type="text">
+            <h2 style="display: inline-block">L</h2>
+            <input id="width" type="text">
+            <h2 style="display: inline-block">W</h2>
+            <button id="generate" style="background-color: blue; color:white">Generate</button>
+        </div>
+    </body>
+    <canvas id="results" width="800" height="800" style="border:1px solid black; position: absolute; top:100; bottom: 0; left: 0; right: 0; margin:auto;"></div>
+</html>
